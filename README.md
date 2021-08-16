@@ -13,7 +13,9 @@ https://getcomposer.org/download/
 composer create-project CodeIgniter/framework project_name
 
 # Library
-Find composer.json and Run Composer Install on same directory using terminal.
+-> Find composer.json and paste inside application directory . 
+-> Run Composer Install on same directory using terminal and it will create vendor dir and composer.lock file.
+-> if you want vendor folder to be created somewhere else than make change on config file also (Change $config['composer_autoload'] = TRUE; to $config['composer_autoload'] = "autoload.php path on vendor";).
 
 # Tables and Database
 -> Create local database.
